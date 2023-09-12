@@ -1,0 +1,14 @@
+:root {
+    --right-background-color: #2F2E41;
+    --input-color: #66657cb6;
+    --button-focus-color: #66657cef;
+    --text-color: #FEFEFE;
+    
+    --first-gradient: #ee7752;
+    --second-gradient: #e73c7e;
+    --third-gradient: #23a6d5;
+    --fourth-gradient: #23d5ab;
+
+    --invalid: #fc2424;
+    --valid: #03c061;
+}
