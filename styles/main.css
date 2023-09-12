@@ -44,3 +44,10 @@ body {
     width: inherit;
     height: inherit;
 }
+
+#left-container, #right-container {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
