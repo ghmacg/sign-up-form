@@ -162,3 +162,30 @@ input[type="password"].error {
 #sign-up-form > button:focus {
     background-color: var(--button-focus-color);
 }
+
+@media only screen and (min-width: 576px) {
+    #container {
+        display: flex;
+    }
+
+    #left-container {
+        width: 40%;
+        height: 100vh;
+    }
+
+    #left-container > img {
+        max-height: 75vh;
+    }
+
+    #right-container {
+        width: 60%;
+        height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 1880px) {
+    #sign-up-form {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
