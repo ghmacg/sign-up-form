@@ -12,3 +12,8 @@
     --invalid: #fc2424;
     --valid: #03c061;
 }
+
+@font-face {
+    font-family: Poppins;
+    src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
