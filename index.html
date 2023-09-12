@@ -57,6 +57,28 @@
                     >
                     <label for="phone-number">US PHONE NUMBER</label>
                 </div>
+                <div class="input-container">   
+                    <input 
+                        type="password" 
+                        name="first-pwd"
+                        id="first-pwd" 
+                        required
+                        minlength="8" 
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    >
+                    <label for="first-pwd">PASSWORD</label>
+                </div>
+                <div class="input-container">
+                    <input 
+                        type="password"
+                        name="second-pwd" 
+                        id="second-pwd" 
+                        required
+                        minlength="8"
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        >
+                    <label for="second-pwd">CONFIRM PASSWORD</label>
+                </div>
             </form>
         </div>
     </div>
