@@ -74,3 +74,22 @@ body {
     padding-bottom: clamp(1rem, 5%, 2rem);
     font-size: 1rem;
 }
+
+#right-container {
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vh;
+    background-color: var(--right-background-color);
+}
+
+#sign-up-form > h1 {
+    padding-top: clamp(1rem, 5%, 2rem);
+    font-size: clamp(1rem, 2vw + 1rem, 3rem);
+}
+
+#sign-up-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    width: 60%;
+}
