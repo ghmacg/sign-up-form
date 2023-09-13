@@ -8,15 +8,15 @@ const submitBtn = document.querySelector('button');
 //if they are not the submit button is disabled and a message becomes visible
 function checkPassword () {
     if (firstPassword.value == secondPassword.value) {
-        if (secondPassword.classList.contains('error')) {
-            secondPassword.classList.remove('error');
+        if (secondPassword.classList.contains('input-error')) {
+            secondPassword.classList.remove('input-error');
             passwordMsg.innerHTML = '';
         };
 
         submitBtn.disabled = false;
     } else {
         if (secondPassword.value != '') {
-            secondPassword.classList.add('error');
+            secondPassword.classList.add('input-error');
             passwordMsg.innerHTML = '(Password does not match)';
         };
 
