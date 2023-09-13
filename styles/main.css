@@ -150,6 +150,14 @@ input[type="password"].input-error {
     border-bottom: solid 0.2rem var(--invalid);
 }
 
+.requirements {
+    color: var(--input-color);
+    font-size: 0.85rem;
+    margin: 0;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+
 span[id="status-pwd"] {
     color: var(--invalid);
     font-size: 0.85rem;

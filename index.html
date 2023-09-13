@@ -77,7 +77,13 @@
                         pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
                     >
                     <label for="first-pwd">PASSWORD</label>
-                    <span id="requirements"></span>
+                    <span>
+                        <ul class="requirements">
+                            <li>Use upper and lower case letters</li>
+                            <li>Use at least a number</li>
+                            <li>Use 8 to 60 characters</li>
+                        </ul>
+                    </span>
                 </div>
                 <div class="input-container">
                     <input 
