@@ -1,4 +1,4 @@
-@import '../node_modules/normalize.css/normalize.css';
+@import 'normalize.css';
 
 :root {
     --right-background-color: #2F2E41;
