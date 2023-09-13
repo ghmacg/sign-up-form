@@ -146,7 +146,7 @@ input:not(:placeholder-shown):not(:focus):invalid {
     border-bottom: solid 0.2rem var(--invalid);
 }
 
-input[type="password"].error {
+input[type="password"].input-error {
     border-bottom: solid 0.2rem var(--invalid);
 }
 
@@ -156,7 +156,7 @@ span[id="status-pwd"] {
     padding-top: 0.5rem;
 }
 
-#sign-up-form > button {
+button {
     align-self: center;
     font-size: 1rem;
     font-weight: 700;
@@ -169,7 +169,7 @@ span[id="status-pwd"] {
     height: 3rem;
 }
 
-#sign-up-form > button:focus {
+button:focus {
     background-color: var(--button-focus-color);
 }
 
