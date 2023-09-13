@@ -20,3 +20,12 @@ function checkPassword () {
         submitBtn.disabled = true;
     };
 };
+
+function signUpChecks () {
+    firstPassword.addEventListener('keyup', () => {
+        if (secondPassword.value.lenght != 0) checkPassword();
+    });
+    
+    secondPassword.addEventListener('keyup', checkPassword);
+};
+
