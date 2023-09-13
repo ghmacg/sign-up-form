@@ -142,6 +142,10 @@ input:valid {
     border-bottom: solid 0.2rem var(--valid);
 }
 
+input:not(:placeholder-shown):not(:focus):invalid {
+    border-bottom: solid 0.2rem var(--invalid);
+}
+
 input[type="password"].error {
     border-bottom: solid 0.2rem var(--invalid);
 }
