@@ -127,7 +127,7 @@ input, label {
 }
 
 input:focus + label,
-input:valid + label {
+input:not(:placeholder-shown) + label {
     font-size: 0.85rem;
     color: var(--input-color);
     top: -1.5em;
