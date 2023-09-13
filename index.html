@@ -73,9 +73,11 @@
                         placeholder=" "
                         required
                         minlength="8" 
+                        maxlength="60"
                         pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
                     >
                     <label for="first-pwd">PASSWORD</label>
+                    <span id="requirements"></span>
                 </div>
                 <div class="input-container">
                     <input 
@@ -85,6 +87,7 @@
                         placeholder=" "
                         required
                         minlength="8"
+                        maxlength="60"
                         pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
                         >
                     <label for="second-pwd">CONFIRM PASSWORD</label>
