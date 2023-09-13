@@ -1,3 +1,5 @@
+@import 'normalize.css';
+
 :root {
     --right-background-color: #2F2E41;
     --input-color: #66657cb6;
