@@ -146,6 +146,12 @@ input[type="password"].error {
     border-bottom: solid 0.2rem var(--invalid);
 }
 
+span[id="status-pwd"] {
+    color: var(--invalid);
+    font-size: 0.85rem;
+    padding-top: 0.5rem;
+}
+
 #sign-up-form > button {
     align-self: center;
     font-size: 1rem;
